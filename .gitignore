@@ -1,0 +1,40 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Uploads and pipeline outputs
+uploads/
+outputs/
+backend/uploads/
+backend/outputs/
+
+# Datasets and raw video assets
+data/
+datasets/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
